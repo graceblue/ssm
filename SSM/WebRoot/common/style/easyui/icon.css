@@ -1,0 +1,232 @@
+/*顶部导航菜单中的图标*/
+.icon_nav1 {
+	background:url(icons/icon_home.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_home.png");
+　　 background:none;
+}
+.icon_nav2 {
+	background:url(icons/icon_gcsj.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_gcsj.png");
+　　 background:none;
+}
+.icon_nav3 {
+	background:url(icons/icon_zxsj.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_zxsj.png");
+　　 background:none;
+}
+.icon_nav4 {
+	background:url(icons/icon_jhbb.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_jhbb.png");
+　　 background:none;
+}
+.icon_nav5 {
+	background:url(icons/icon_zhcx.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_zhcx.png");
+　　 background:none;
+}
+.icon_nav6 {
+	background:url(icons/icon_zsk.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_zsk.png");
+　　 background:none;
+}
+.icon_nav1_on {
+	background:url(icons/icon_home_hover.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_home_hover.png");
+	　background:none;
+}
+.icon_nav2_on {
+	background:url(icons/icon_gcsj_hover.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_gcsj_hover.png");
+	background:none;
+}
+.icon_nav3_on {
+	background:url(icons/icon_zxsj_hover.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_zxsj_hover.png");
+	background:none;
+}
+.icon_nav4_on {
+	background:url(icons/icon_jhbb_hover.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_jhbb_hover.png");
+	background:none;
+}
+.icon_nav5_on {
+	background:url(icons/icon_zhcx_hover.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_zhcx_hover.png");
+	background:none;
+}
+.icon_nav6_on {
+	background:url(icons/icon_zsk_hover.png) !important;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\themes/icons/icon_zsk_hover.png");
+	background:none;
+}
+/*左侧下拉菜单中的图标*/
+.icon-menu1 {
+	background:url('icons/icon_menu1.png') no-repeat center center;
+}
+.icon-menu2 {
+	background:url('icons/icon_menu2.png') no-repeat center center;
+}
+.icon-menu3 {
+	background:url('icons/icon_menu3.png') no-repeat center center;
+}
+.icon-menu4 {
+	background:url('icons/icon_menu4.png') no-repeat center center;
+}
+/*easyui中的图标样式*/
+.icon-blank {
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add {
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit {
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-remove {
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save {
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut {
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok {
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no {
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel {
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload {
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search {
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print {
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help {
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo {
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo {
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back {
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum {
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip {
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-mini-add {
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit {
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh {
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+/* 图村标题按钮 */
+/* 保存 */
+.btutit1{
+	background:url(../images/icon_tool_01.png) no-repeat 0px 3px;
+	}
+.btutit1:hover{
+	background:url(../images/icon_tool_hov_01.png) no-repeat 0px 4px;
+	}
+/* 提交 */
+.btutit2{
+	background:url(../images/icon_tool_02.png) no-repeat 0px 3px;
+	}
+.btutit2:hover{
+	background:url(../images/icon_tool_hov_02.png) no-repeat 0px 4px
+	}
+/* 返回 */
+.btutit3{
+	background:url(../images/icon_tool_05.png) no-repeat 0px 3px;
+	}
+.btutit3:hover{
+	background:url(../images/icon_tool_hov_05.png) no-repeat 0px 3px;
+	}
+/* 查询 */
+.btutit4{
+	background:url(../images/icon_tool_06.png) no-repeat 0px 3px;
+	}
+.btutit4:hover{
+	background:url(../images/icon_tool_hov_06.png) no-repeat 0px 3px;
+	}
+/* 删除 */
+.btutit5{
+	background:url(../images/icon_tool_04.png) no-repeat 0px 3px;
+	}
+.btutit5:hover{
+	background:url(../images/icon_tool_hov_04.png) no-repeat 0px 3px;
+	}
+/* 修改 */
+.btutit6{
+	background:url(../images/icon_tool_03.png) no-repeat 0px 3px;
+	}
+.btutit6:hover{
+	background:url(../images/icon_tool_hov_03.png) no-repeat 0px 3px;
+	}
+/* 保存模板 */
+.btutit7{
+	background:url(../images/icon_tool_07.png) no-repeat 0px 3px;
+	}
+.btutit7:hover{
+	background:url(../images/icon_tool_hov_07.png) no-repeat 0px 3px;
+	}
+/* 导入模板 */
+.btutit8{
+	background:url(../images/icon_tool_08.png) no-repeat 0px 3px;
+	}
+.btutit8:hover{
+	background:url(../images/icon_tool_hov_08.png) no-repeat 0px 3px;
+	}
+/* 新增 */
+.btutit9{
+	background:url(../images/icon_tool_09.png) no-repeat 0px 3px;
+	}
+.btutit9:hover{
+	background:url(../images/icon_tool_hov_09.png) no-repeat 0px 3px;
+	}
+/* 打印 */
+.btutit10{
+	background:url(../images/icon_tool_10.png) no-repeat 0px 3px;
+	}
+.btutit10:hover{
+	background:url(../images/icon_tool_hov_10.png) no-repeat 0px 3px;
+	}
+/* 编制 */
+.btutit11{
+	background:url(../images/icon_tool_11.png) no-repeat 0px 3px;
+	}
+.btutit11:hover{
+	background:url(../images/icon_tool_hov_11.png) no-repeat 0px 3px;
+	}
+/* 审批 */
+.btutit12{
+	background:url(../images/icon_tool_12.png) no-repeat 0px 3px;
+	}
+.btutit12:hover{
+	background:url(../images/icon_tool_hov_12.png) no-repeat 0px 3px;
+	}
+/* 导出 */
+.btutit13{
+	background:url(../images/icon_tool_13.png) no-repeat 0px 3px;
+	}
+.btutit13:hover{
+	background:url(../images/icon_tool_hov_13.png) no-repeat 0px 3px;
+	}
+

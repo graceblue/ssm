@@ -1,0 +1,140 @@
+﻿/* 送分管领导审批 */
+.sfldspmidd{
+	width:547px;
+	margin:0 auto;
+	}
+.sfldsptop{
+	width:100%;
+	float:left;
+	height:auto;
+}
+.sfldtit{
+	width:545px;
+	height:42px;
+	background:url(../imgs/adldsptit.jpg) repeat-x;
+	line-height:42px;
+	}
+.sfldtit span{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	padding-left:17px;
+}
+.sfldleft{
+	width:198px;
+	height:263px;
+	margin-top:5px;
+	margin-left:15px;
+	float:left;
+}
+.sfldleft dt{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+	color:#333333;
+	text-indent:26px;
+}
+.sfldleft dd textarea{
+	width:178px;
+	height:212px;
+	border:1px solid #ccc;
+	margin:4px;
+	color:#999999;
+	}
+.sfldcenter{
+	margin:124px 22px 0px 23px;
+	width:72px;
+	height:auto;
+	float:left;
+}
+.sfldcenter a{
+	float:left;
+	padding:5px 12px 3px 11px;
+	border:1px solid #b1bbc9;
+	background:url(../imgs/shubtu.jpg) repeat-x;
+	margin-top:16px;
+	color:#333;
+}
+.sfldcenter a img{
+	float:left;
+	margin-right:8px;
+}
+.sfldright{
+	float:left;
+	width:198px;
+	height:263px;
+	margin-top:5px;
+	color:#333;
+}
+.sfldright p{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid #ccc;
+	line-height:30px;
+	text-indent:26px;
+}
+.sfldright ul{
+	width:100%;
+	height:229px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	padding-top:3px;
+}
+.sfldright li{
+	padding:6px 0px 7px 0px;
+	width:100%;
+	float:left;
+	text-indent:27px;
+	cursor:pointer;
+}
+.sfldright li:hover{
+	background:#2282cf;
+}
+.sfldright li:hover a{
+	color:#333;
+}
+.sfldright li a{
+	color:#333;
+}
+.liactive{
+	background:#2282cf;
+	color:#fff;
+}
+.livisitde{
+	background:#fff;
+	color:#333;
+}
+.sfldsjinfo{
+	width:515px;
+	height:32px;
+	line-height:32px;
+	margin:5px 15px 5px;
+	float:left;
+	color:#333;
+}
+.sfldsjinfo small{
+	padding-left:24px;
+	padding-right:5px;
+}
+.sfldsjbtu{
+	width:100%;
+	border-top:1px solid #ccc;
+	height:43px;
+	background:url(../imgs/sfldsjbtu.jpg) repeat-x bottom #efefef;
+	float:left;
+}
+.sfldsjbtu p{
+	float:right;
+	margin-right:14px;
+	margin-top:8px;
+}
+.sfldsjbtu p a{
+	background:url(../imgs/sfldbtu.jpg) no-repeat;
+	display:block;
+	height:28px;
+	width:58px;
+	text-align:center;
+	line-height:28px;
+	color:#000;
+}

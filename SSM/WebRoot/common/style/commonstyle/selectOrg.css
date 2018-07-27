@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*CSS reset textarea前面字体*/
+#tb-orgC {
+	padding: :5px;
+	height: auto;
+}
+
+#tb-orgC td {
+	padding-left: 5px;
+}
+
+#tb-orgC .btn {
+	margin-bottom: 5px;
+	float: right;
+	padding-right: 10px;
+}

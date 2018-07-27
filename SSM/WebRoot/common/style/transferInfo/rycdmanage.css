@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color:#333;
+}
+a {
+	color:#333;
+}
+a:hover {
+	text-decoration:none;
+}
+.mglt14{
+	margin-left:14px;
+}
+.midbord {
+	border:1px solid #ccc;
+}
+.main-menu{
+	z-index:1020;
+	background:#fff;
+	margin-top:30px;
+	float:left;
+	width:100%;
+}
+.maintop{
+	margin-top:20px;
+}
+.main-mgtp15{
+	margin-top:15px;
+}
+/* 基础 */
+
+/* 人员抽调管理 */
+.rycdgl_mbxnav{
+	width:100%;
+	float:left;
+	padding-top:30px;
+	padding-bottom:1px;
+	}
+.rycdgl_mbxnav small,.rycdgl_mbxnav a,.rycdgl_mbxnav span{
+	float:left;
+	padding:0px 1px;
+}
+.rycdgl_mbxnav small{
+	padding-left:15px;
+}
+.rycdgl_titlan{
+	width:99.88%;
+	height:38px;
+	line-height:38px;
+	float:left;
+	background:url(../imgs/acvititygf.jpg) repeat-x;
+}
+.rycdgl_titlan small{
+	float:left;
+	text-align:center;
+	display:block;
+}
+.rycdgl_titlan p{
+	float:left;
+	text-align:center;
+}
+.smrycdtit1{
+	width:28%;
+	}
+.smrycdtit2{
+	width:10%;
+	}
+.smrycdtit3{
+	width:16%;
+	}
+.smrycdtit4{
+	width:16%;
+	}
+.smrycdtit5{
+	width:10%;
+	margin-top:7px;
+	}
+.rycdgl_caozlan{
+	width:99.88%;
+	background:url(../imgs/fbhdcaozlan.jpg) repeat-x;
+	height:31px;
+	line-height:31px;
+	float:left;
+	margin-top:5px;
+	}
+.rycdgl_caozlan input{
+	float:left;
+	margin:9px 10px 0px 14px;
+}
+.rycdgl_caozlan small{
+	padding-right:9px;
+	float:left;
+}
+.rycdgl_caozlan a{
+	margin-right:5px;
+	float:left;
+	margin-top:3px;
+}
+.rycdgl_listifno{
+	width:99.88%;
+	height:auto;
+	float:left;
+	margin-top:5px;
+	border-bottom:0px;
+}
+.rycdgl_listifno p{
+	width:100%;
+	height:38px;
+	line-height:38px;
+	float:left;
+	background:url(../imgs/fbhdtitle.jpg) repeat-x;
+	border-bottom:1px solid #ccc;
+}
+.rycdgl_listifno p span{
+	float:left;
+	text-align:center;
+	display:block;
+}
+.rycdgl_listifno p span.smrycdtit1{
+	text-align:left;
+}
+.rycdgl_listifno p span.smrycdtit1 input{
+	float:left;
+	margin:12px 10px 0px 14px;
+}
+.rycdgl_listifno p span.smrycdtit5{
+	margin-top:0px;
+}
+
+/* 编制抽调信息 */
+.bzcdxx_titlan{
+	width:99.88%;
+	height:38px;
+	line-height:38px;
+	float:left;
+	background:url(../imgs//xmpz_titbg.jpg) repeat-x;
+}
+.bzcdxx_titlan b{
+	padding-left:14px;
+	}
+.bzcdxx_cdiflan{
+	width:99.88%;
+	margin-top:5px;
+	height:auto;
+	float:left;
+}
+.bzcdxx_cdiflan dl{
+	width:100%;
+	float:left;
+	height:auto;
+	padding-top:9px;
+	padding-bottom:12px;
+}
+.bzcdxx_cdiflan dt{
+	float:left;
+	width:51.9%;
+	padding:3px 0px 4px 0px;
+	}
+.bzcdxx_cdiflan dd{
+	float:left;
+	width:47.9%;
+	padding:3px 0px 4px 0px;
+	}
+.bzcdxx_cdiflan dd label{
+	float:left;
+	margin-top:7px;
+	margin-left:10px;
+	margin-right:12px;
+	}
+.bzcdxx_cdiflan small{
+	float:left;
+	line-height:24px;
+	width:87px;
+	padding-left:21px;
+}
+.bzcdxx_cdiflan small.smpdlt{
+	padding-left:0px;
+}
+.bzcdxx_cdiflan span{
+	float:left;
+}
+.bzcdxx_cdiflan input{
+	float:left;
+	width:319px;
+}
+.bzcdxx_cdiflan input.inprad{
+	width:auto;
+	margin-top:7px;
+}
+.bzcdxx_cdiflan b{
+	float:left;
+	font-weight:normal;
+	color:#ed1c24;
+	line-height:24px;
+	margin-left:8px;
+	margin-right:7px;
+	}
+.bzcdxx_cdreny{
+	width:99.88%;
+	height:auto;
+	background:url(../imgs/xmpz_bzxmbg.jpg) repeat-x;
+	float:left;
+	margin-top:5px;
+	}
+.bzcdxx_cdreny p.cdrytit{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	float:left;
+}
+.bzcdxx_cdreny p.cdrytit small{
+	float:left;
+	margin-left:14px;
+}
+.bzcdxx_cdreny p.cdrytit a{
+	float:left;
+	margin-left:12px;
+	margin-top:6px;
+}
+.bzcdxx_cdreny ul{
+	width:100%;
+	height:auto;
+	float:left;
+	border-top:1px solid #ccc;
+	padding:8px 0px;
+}
+.bzcdxx_cdreny li{
+	width:48%;
+	line-height:30px;
+	height:30px;
+	float:left;
+	}
+.bzcdxx_cdreny li small{
+	float:left;
+	display:block;
+}
+.bzcdxx_cdreny li small.smryif1{
+	width:15%;
+	padding-left:12%;
+	margin-top:7px;
+	line-height:20px;
+	}
+.bzcdxx_cdreny li small.smryif2{
+	width:25%;
+}
+
+/* 人员查询 */
+.userinfo{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:30px;
+}
+.userleft{
+	float:left;
+	width:15%;
+	height:auto;
+}
+.userleft p{
+	float:left;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-indent:14px;
+	border-bottom:1px solid #ccc;
+}
+.userleft ul{
+	float:left;
+	width:100%;
+	margin:6px 0px 7px 0px;
+}
+.userleft li{
+	width:100%;
+	line-height:24px;
+}
+.userleft li:hover{
+	background:#2282cf;
+	color:#fff;
+	}
+.userleft li small{
+	padding-left:14px;
+}
+.userleft li span{
+	padding-left:28px;
+}
+.userright{
+	float:left;
+	width:84.8%;
+	height:auto;
+	border-left:1px solid #ccc;
+}
+.userright p.usertitle{
+	float:left;
+	width:100%;
+	line-height:30px;
+	height:30px;
+	text-indent:14px;
+	border-bottom:1px solid #ccc;
+}
+.userright ul{
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+.userright li{
+	width:100%;
+	padding:4px 0px;
+	float:left;
+	line-height:24px;
+}
+.userright li small{
+	text-align:right;
+	float:left;
+	width:100px;
+}
+.userright li p{
+	float:left;
+	width:160px;
+}
+.userright li p.pwidsy{
+	width:220px;
+}
+.userright li input{
+	float:left;
+}
+.userright li input.inred{
+	width:auto;
+	margin-top:6px;
+	margin-left:14px;
+}
+.userright li a{
+	float:left;
+}
+.userright li label{
+	float:left;
+	margin-left:8px;
+}
+.userright li textarea{
+	margin-left:20px;
+	width:88.9%;
+	height:40px;
+}
+.usercxtab{
+	width:96%;
+	padding-left:20px;
+	padding-bottom:10px;
+}

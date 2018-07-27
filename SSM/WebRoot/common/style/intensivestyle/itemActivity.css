@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	color:#333;
+}
+a{
+	color:#333;
+}
+.middleft {
+	width:100%;
+	float:left;
+	height:auto;
+	padding-bottom:10px;
+	background-color:#fafcfc;
+}
+#middle {
+	margin:0 auto;
+	min-width:1000px;
+	width:95%;
+}
+.midbord{
+	border:1px solid #ccc;
+}
+.main-menu{
+	z-index:1020;
+	margin-top:30px;
+	width:100%;
+	float:left;
+	background:#fff;
+}
+.main-mgtp15{
+	margin-top:15px;
+}
+.mgleft14{
+	margin-left:14px;
+}
+/* 基础 */
+
+/* 发布活动 */
+.fbhd_activitygf{
+	width:99.88%;
+	height:38px;
+	background:url(../imgs/acvititygf.jpg) repeat-x;
+	line-height:38px;
+}
+.fbhd_activitygf b{
+	padding-left:14px;
+	float:left;
+}
+.fbhd_activitygf p{
+	float:right;
+	margin-right:7px;
+}
+.fbhd_activitygf p a{
+	float:left;
+	margin-right:14px;
+}
+.fbhd_activitygf p a img{
+	float:left;
+	padding-top:10px;
+	padding-right:6px;
+}
+.fbhd_querylan{
+	width:100%;
+	float:left;
+	height:auto;
+	margin-top:17px;
+	margin-bottom:30px;
+}
+.fbhd_querylan b{
+	color:#676767;
+	padding-left:41px;
+	padding-right:7px;
+	}
+.fbhd_querylan input{
+	color:#676767;
+}
+.fbhd_querylan small{
+	padding:0px 14px;
+	}
+.fbhd_titlelan{
+	width:99.88%;
+	line-height:38px;
+	background:url(../imgs/fbhdtitle.jpg) repeat-x;
+	float:left;
+	height:38px;
+}
+.fbhd_titlelan p{
+	float:left;
+	width:33%;
+}
+.fbhd_titlelan p small{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+.fbhd_titlelan p small.smsy{
+	text-align:left;
+	text-indent:14px;
+}
+.fbhd_titlelan span{
+	float:left;
+	text-align:center;
+}
+.fbhd_titlelan span.spwd1{
+	width:16.4%;
+}
+.fbhd_titlelan span.spwd2{
+	width:17.3%;
+}
+.fbhd_titlelan span.spwd3{
+	width:8.6%;
+}
+.fbhd_titlelan span.spwd4{
+	width:245px;
+	width:24.5%;
+}
+.fdhd_caozlan{
+	width:99.88%;
+	background:url(../imgs/fbhdcaozlan.jpg) repeat-x;
+	height:31px;
+	line-height:31px;
+	float:left;
+	margin-top:5px;
+	}
+.fdhd_caozlan input{
+	float:left;
+	margin:9px 10px 0px 14px;
+}
+.fdhd_caozlan small{
+	padding-right:9px;
+	float:left;
+}
+.fdhd_caozlan a{
+	margin-right:5px;
+	float:left;
+	margin-top:3px;
+}
+.fbhd_listinfo{
+	width:99.88%;
+	height:auto;
+	float:left;
+	background:#fff;
+	margin-top:5px;
+	border-bottom:0px;
+}
+.fbhd_listinfo li{
+	width:100%;
+	line-height:38px;
+	border-bottom:1px solid #ccc;
+	float:left;
+}
+.fbhd_listinfo li p input{
+	float:left;
+	margin:13px 13px 0px 14px;
+}
+.wybm_huodbm{
+	width:99.88%;
+	background:url(../imgs/acvititygf.jpg) repeat-x;
+	height:38px;
+	line-height:38px;
+}
+.wybm_huodbm span{
+	float:left;
+}
+.wybm_huodbm span.spwid1{
+	width:86px;
+	padding-left:14px;
+	font-weight:bold;
+	width:9%;
+}
+.wybm_huodbm span.spwid2{
+	width:253px;
+	width:27.2%;
+}
+.wybm_huodbm span.spwid3{
+	width:338px;
+	width:33%;
+}
+.wybm_titlelan{
+	width:99.88%;
+	height:38px;
+	line-height:38px;
+	background:url(../imgs/fbhdtitle.jpg) repeat-x;
+	margin-top:5px;
+	float:left;
+}
+.wybm_titlelan span{
+	float:left;
+}
+.wybm_titlelan span.spwd1{
+	width:71px;
+	width:7%;
+}
+.wybm_titlelan span.spwd2{
+	width:196px;
+	text-align:center;
+	width:20%;
+}
+.wybm_titlelan span.spwd3{
+	width:309px;
+	text-align:center;
+	width:31%;
+}
+.wybm_titlelan span.spwd4{
+	width:150px;
+	width:15%;
+}
+.wybm_titlelan span.spwd5{
+	width:147px;
+	width:14.7%;
+}
+.wybm_listinfo{
+	height:auto;
+	background:#fff;
+	border-bottom:0px;
+}
+.wybm_listinfo p{
+	width:100%;
+	float:left;
+	line-height:38px;
+	height:38%;
+	border-bottom:1px solid #ccc;
+}
+.wybm_listinfo span input{
+	margin-top:13px;
+	margin-left:4px;
+	float:left;
+	}
+.wybm_listinfo span.spwd1 input{
+	margin-left:14px;
+	}
+/* 报名情况 */
+.bmqk_titlelan{
+	width:99.88%;
+	height:38px;
+	line-height:38px;
+	background:url(../imgs/fbhdtitle.jpg) repeat-x;
+	float:left;
+	margin-top:5px;
+	text-align:center;
+	}
+.bmqk_titlelan small{
+	width:518px;
+	float:left;
+	width:51.8%;
+}
+.bmqk_titlelan span{
+	width:452px;
+	float:left;
+	width:45.2%;
+}
+.bmqk_listinfo{
+	width:99.88%;
+	height:auto;
+	float:left;
+	margin-top:5px;
+	border-bottom:0px;
+}
+.bmqk_listinfo dl{
+	float:left;
+	width:100%;
+	height:auto;
+	border-bottom:1px solid #ccc;
+}
+
+.bmqk_listinfo dt{
+	width:51.8%;
+	float:left;
+	padding-top:22px;
+	padding-bottom:23px;
+}
+.bmqk_listinfo dt p{
+	line-height:26px;
+	padding-left:30%;
+}
+.bmqk_listinfo dt p small{
+	padding-left:46px;
+}
+.bmqk_listinfo dd{
+	width:35.2%;
+	float:left;
+	padding-top:11px;
+	padding-bottom:11px;
+	padding-left:10%;
+	}
+.bmqk_listinfo dd p{
+	line-height:24px;
+}
+.bmqk_listinfo dd p small{
+	padding-left:43px;
+	}
+	
+/* 项目活动 */
+.xmhd_mbxnav{
+	width:100%;
+	float:left;
+	padding-top:30px;
+	padding-bottom:1px;
+	}
+.xmhd_mbxnav small,.xmhd_mbxnav a,.xmhd_mbxnav span{
+	float:left;
+	padding:0px 1px;
+}
+.xmhd_mbxnav small{
+	padding-left:15px;
+}
+.xmhd_titlan{
+	width:99.88%;
+	height:38px;
+	line-height:38px;
+	float:left;
+	background:url(../imgs/acvititygf.jpg) repeat-x;
+}
+.xmhd_titlan small{
+	float:left;
+	text-align:center;
+	display:block;
+}
+.xmhd_titlan p{
+	float:left;
+	text-align:center;
+}
+.xmname{
+	width:22.6%;
+	}
+.xmtype{
+	width:11.7%;
+}
+.xmerson{
+	width:11%;
+}
+.xmxishu{
+	width:6.8%;
+}
+.xmtime{
+	width:17.7%;
+}
+.xmstate{
+	margin-top:7px;
+	width:11.8%;
+}
+.xmoper{
+	width:18.3%;
+}
+.hdxm_listinfo{
+	width:99.88%;
+	height:auto;
+	float:left;
+	margin-top:5px;
+	border-bottom:0px;
+	background:#fff;
+}
+.xmlistifdt{
+	width:100%;
+	height:38px;
+	line-height:38px;
+	float:left;
+	background:url(../imgs/fbhdtitle.jpg) repeat-x;
+	border-bottom:1px solid #ccc;
+	}
+.xmlistifdt b{
+	padding-left:12px;
+}
+.xmlistifdt input{
+	float:left;
+	margin-left:15px;
+	margin-top:12px;
+}
+.hdxm_listinfo li{
+	width:100%;
+	height:64px;
+	line-height:64px;
+	float:left;
+	border-bottom:1px solid #ccc;
+	}
+.hdxm_listinfo li small{
+	float:left;
+	display:block;
+	text-align:center;
+}
+.hdxm_listinfo li span{
+	float:left;
+	text-indent:15px;
+}
+.hdxm_listinfo li p{
+	float:left;
+}
+.hdxm_listinfo li p a{
+	padding-left:12px;
+	float:left;
+}
+.hdxm_listinfo li p a.amglt{
+	margin-left:16px;
+}
+.hdxm_listinfo li p a img{
+	vertical-align:middle;
+	margin-right:5px;
+}
+.jinxz{
+	margin-top:0px;
+}

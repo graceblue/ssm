@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#tool_search {
+	height: 22px;
+	padding: 15px 0px;
+}
+
+#tool_search td {
+	float: left;
+	line-height: 22px;
+	padding-left: 15px;
+}
+
+.folder {
+	width: 150px;
+	height: 22px;
+	border: 1px solid #c9d3e1;
+	display: block;
+	overflow: hidden;
+	float: left;
+	white-space: nowrap;
+}
+
+.folder input {
+	width: 130px;
+	height: 22px;
+	line-height: 22px;
+	border: 0px;
+	vertical-align: baseline;
+	float: left;
+	text-indent: 5px;
+}
+
+.folder input:focus {
+	color: #188100;
+}
+
+.folder a {
+	height: 22px;
+	width: 20px;
+	background: url(../imgs/messager_icons.png) no-repeat center;
+	cursor: pointer;
+	display: block;
+	float: left;
+}
+
+.gridtab2 {
+	border-top:1px solid #cfd4d8;
+	border-left:1px solid #cfd4d8;
+	background:#fff;
+}
+.gridtab2 table {
+	width:100%;
+	background:#fff;
+	border-collapse:collapse;
+}
+.gridtab2 * {
+	font-family:Verdana, "宋体";
+}
+.gridtab2 th {
+	border-bottom:1px solid #cfd4d8;
+	border-right:1px solid #cfd4d8;
+	height:24px;
+	text-align:center;
+	background:url(../images/grid_field_bg.png) center top repeat-x #fff;
+	color:#666;
+	font-weight:bold;
+	text-align:left;
+	padding-left:8px;
+}
+.gridtab2 th img {
+	vertical-align:middle;
+	border:none;
+	margin-left:3px;
+}
+.gridtab2 td {
+	color:#464646;
+	border-bottom:1px solid #e7e7e7;
+	border-right:1px solid #e7e7e7;
+	background:#fff;
+	padding:3px 8px;
+}
+.gridtab2 tbody A {
+	color:#1871bd;
+	text-decoration:none;
+}
+.gridtab2 tbody A:hover {
+	color:#000;
+	text-decoration:underline;
+}
+.gridtab2 tr:hover td {
+	background:#ff9a3d !important;
+	color:#fff !important;
+}
+.gridtab2 .selected td {
+	background:#3c99dc !important;
+	color:#fff !important;
+}
+
+.gridhead tr {
+	margin: 10px;
+}
+

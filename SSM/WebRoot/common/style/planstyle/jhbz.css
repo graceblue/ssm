@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+.midbord {
+	border:1px solid #c9d3e1;
+}
+.pdlt15 {
+	padding-left:15px;
+}
+#mgtop0 {
+	margin-top:0px;
+	border-top:0px;
+}
+.mgtop30 {
+	margin-top:30px;
+}
+.mgbot20{
+	margin-bottom:20px;
+}
+/* 基础 */
+.middleft {
+	width:100%;
+	height:auto;
+	float:left;
+	margin-bottom:20px;
+}
+#middle {
+	margin:0 auto;
+	min-width:920px;
+	width:95%;
+}
+.Biaidtop {
+	height:32px;
+	margin-top:29px;
+	background:#90b8dd;
+	line-height:32px;
+	width:100%;
+}
+.Biaidtop b {
+	color:#FFF;
+	float:left;
+	display:block;
+	text-indent:15px;
+	width:39.5%;
+}
+.Biaidtop p{
+	float:left;
+	margin-top:4px;
+	width:58%;
+	}
+.Biaidtop p a{
+	display:block;
+	float:right;
+	padding:0px 15px;
+}
+.jhbztop {
+	background:url(../imgs/jhbztop.jpg) repeat-x left;
+	height:38px;
+	line-height:38px;
+	width:99.8%;
+}
+.jhbztop span, .jhbzlist span {
+	display:block;
+	float:left;
+	color:#333;
+}
+span.spwd1 {
+	text-align:center;
+	overflow:hidden;
+	width:24%;
+	padding-left:15px;
+}
+span.spwd2 {
+	width:22.3%;
+}
+span.spwd3 {
+	width:9.5%;
+}
+span.spwd4 {
+	text-align:center;
+	width:13%;
+}
+span.spwd5 {
+	text-align:center;
+	width:14.5%;
+}
+span.spwd6,a.spwd6{
+	text-align:center;
+	width:7%;
+}
+.jhbzlist {
+	margin-top:5px;
+	float:left;
+	border-bottom:0px;
+	width:99.8%;
+}
+.jhbzlist dd {
+	background-color:#ecf0f3;
+	border-bottom:1px solid #d9e0ea;
+	line-height:31px;
+	float:left;
+	width:100%;
+}
+.jhbzlist dd input{
+	margin-left:15px;
+	float:left;
+	margin-top:8px;
+}
+.jhbzlist dd b{ margin-left:17px;}
+.jhbzlist dt {
+	float:left;
+	width:100%;
+	border-bottom:1px solid #d9e0ea;
+	line-height:29px;
+
+}
+.jhbzlist dt span input{
+	margin-left:15px;
+	float:left;
+	margin-top:7px;
+	margin-right:16px;
+}
+.jhbzlist dt.listbg{
+	background:url(../imgs/listbg.jpg) repeat-x;
+	height:29px;
+}
+.jhbzlist dt span {
+	color:#666666;
+	text-indent:0px;
+}
+.jhbzlist dt span.spwd1{
+	text-align:left;
+	}
+.jhbzlist dt span.spwd7{
+	text-indent:0px;
+	text-align:left;
+	}
+.jhbzlist dt a.ty{
+	padding-bottom:0px;
+}
+.jhbzlist dt span.spwd5{
+	text-align:left;
+	}
+.jhbzlist dt a.spwd6{
+	padding-left:0px;
+}
+.jhbzlist dt a {
+	color:#0247c7;
+	font-family:"新宋体";
+	float:left;
+}
+.jhbzlist dt a:hover {
+	text-decoration:none;
+}
+.huisz {
+	background:url(../imgs/trash.png) no-repeat 15px 0px;
+	_background:url(../imgs/trash.jpg) no-repeat 15px 0px;
+	height:22px;
+	padding-left:55px;
+	padding-top:13px;
+	font-weight:bold;
+}
+/* 需求说明 */
+.shuom{
+	background:url(../imgs/shumbg.png) no-repeat left top;
+	float:right;
+	top:45%;
+	position:fixed;
+	right:10px;
+}
+.shuomzhak{
+	 background:url(../imgs/shuomzhk.png) no-repeat left top;
+	 top:35%;
+	}
+.shuom p{
+	width:26px;
+	float:left;
+	}
+.shuom p small.fudlttop,.shuom p small.fudltbot
+{
+	width:26px;
+	display:block;
+	float:left;
+}
+.shuom p small.fudlttop{
+	background:url(../imgs/fudlttop.png) no-repeat top;
+	height:4px;
+	}
+.shuom p small.fudltbot{
+	background:url(../imgs/fudltbot.png) no-repeat top;
+	height:4px;
+	}
+.shuom p a{
+	background:url(../imgs/fudltmid.png) repeat-y;
+	display:block;
+	float:left;
+	width:12px;
+	cursor:pointer;
+	line-height:17px;
+	color:#fff;
+	padding:5px 7px;
+	}
+.shuom p a.fdhoversy{
+	padding:77px 7px;
+	line-height:26px;
+}
+.shuom p a:hover{
+		text-decoration:none;
+	}
+.shuom span{
+	background:url(../imgs/textbg.png) no-repeat;
+	display:block;
+	float:left;
+	width:320px;
+	height:294px;
+	}
+.shuom textarea{
+	width:318px;
+	margin-top:3px;
+	height:281px;
+	border:0px;
+	font-size:12px;
+	color:#999;
+}

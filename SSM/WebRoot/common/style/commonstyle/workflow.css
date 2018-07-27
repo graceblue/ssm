@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*CSS reset textarea前面字体*/  
+.shenhetab{
+	width:760px;
+	padding-top:6px;
+	font-size:12px;
+	}
+.shenhetab b{
+	font-size:14px;
+	color:#1c559c;
+}
+.shenhetab th{
+	background:#ddeafa;
+	line-height:26px;
+	text-align:left;
+	text-indent:1em;
+}
+.shenhetab td{
+	line-height:26px;
+	text-indent:1em;
+	}
+.shenhetab td.bgsty{
+	background:#edf3fa;
+	}
+.shenhetab td.textrg{
+	/* float:right; */
+	padding-right:30px;
+	text-indent:0em;
+	text-align:right;
+	padding-top:15px;
+}
+.shenhetab .em2{
+	text-indent:3em;
+}

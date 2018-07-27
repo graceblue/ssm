@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/jsp/login.jsp=UTF-8
+encoding//src/com/ssm/domain/BaseOrganization.java=UTF-8
+encoding//src/com/ssm/domain/BasePosition.java=UTF-8
+encoding//src/com/ssm/domain/BaseRole.java=UTF-8
+encoding//src/com/ssm/domain/BaseUserExtend.java=UTF-8

@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+.middleft {
+	width:100%;
+	float:left;
+	height:auto;
+}
+.middleWFBtn {
+	margin:0 auto;
+	min-width:1000px;
+	width:90%;
+}
+/* 审核 */ 
+.shenhlist{
+	width:100%;
+	height:auto;
+	position:fixed;
+	bottom:0px;
+	background:#fff;
+}
+.shcaozl{
+	width:100%;
+	height:58px;
+	background:url(../imgs/shcaozl.jpg) repeat-x;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	line-height:58px;
+	}
+.shcaozl small{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#333;
+	}
+.shcaozl b{
+	font-weight:normal;
+	font-size:20px;
+	padding:0px 10px 0px 17px;
+}
+.shcaozl p{
+	float:right;
+	margin-top:14px;
+	margin-right:24px;
+}
+.shcaozl p span.shenhlt{
+	background:url(../imgs/shenhbtult.jpg) no-repeat;
+	width:6px;
+	height:33px;
+	float:left;
+}
+.shcaozl p span.shenhlt:hover{
+	background:url(../imgs/shenhbtulthov.jpg) no-repeat;
+	}
+.shcaozl p span.shenhrg{
+	background:url(../imgs/shenhrg.jpg) no-repeat;
+	width:6px;
+	height:33px;
+	float:left;
+}
+.shcaozl p span.shenhrg:hover{
+	background:url(../imgs/shenhrghov.jpg) no-repeat;
+	}
+.shcaozl p span.shenhmid{
+	padding:0px 16px;
+	background:url(../imgs/shenhmid.jpg) repeat-x;
+	float:left;
+	}
+.shcaozl p span.shenhmid:hover{
+	background:url(../imgs/shenhmidhov.jpg) repeat-x;
+	}
+.shcaozl p a{
+	color:#fff;
+	float:left;
+	line-height:33px;
+	margin-left:14px;
+	}
+.shenhtit{
+	width:100%;
+	height:40px;
+	background:url(../imgs/shenhtit.jpg) repeat-x;
+	border-bottom:1px solid #bbbbbb;
+}
+.shenhtit small,.shenhinfo small{
+	float:left;
+	height:23px;
+	width:1px;
+	background:url(../imgs/shxux.jpg) no-repeat;
+	margin-top:10px;
+}
+.shenhtit img{
+	margin-top:11px;
+	margin-left:15px;
+	float:left;
+}
+.shenhtit span{
+	float:left;
+	margin:0px 13px 0px 10px;
+	line-height:40px;
+	font-size:14px;
+	color:#767676;
+}
+.shenhtit p{
+	float:left;
+	line-height:40px;
+	text-align:center;
+	font-size:12px;
+}
+.shenhtit p.pshtit1{
+	text-align:left;
+	text-indent:18px;
+	width:32%;
+}
+.shenhtit p.pshtit2{
+	width:12%;
+}
+.shenhtit p.pshtit3{
+	width:14%;
+}
+.shenhtit p.pshtit4{
+	width:11%;
+}
+.shenhtit p.pshtit5{
+	width:18%;
+}
+.shenhinfo{
+	width:100%;
+	background:#fff;
+	height:auto;
+	float:left;
+}
+.shenhinfo ol{
+	width:100%;
+	height:4px;
+	float:left;
+	background:url(../imgs/shehif.jpg) repeat-x;
+}
+.shenhinfo small{
+	margin-top:6px;
+	}
+.shenhinfo{
+	width:100%;
+	height:35px;
+	line-height:35px;
+	float:left;
+	}
+.shenhinfo span{
+	float:left;
+	line-height:35px;
+	text-align:center;
+	font-size:12px;
+}
+.shenhinfo span.spif1{
+	text-align:left;
+	text-indent:18px;
+	width:32%;
+	padding-left:116px;
+	}
+.shenhinfo span.spif2{
+	width:12%;
+}
+.shenhinfo span.spif3{
+	width:14%;
+}
+.shenhinfo span.spif4{
+	width:11%;
+}
+.shenhinfo span.spif5{
+	width:18%;
+}
+.bianx{
+	width:100%;
+	height:1px;
+	border-bottom:1px solid #ccc;
+	float:left;
+}
+.shenhfot{
+	width:100%;
+	height:24px;
+	float:left;
+	background:url(../imgs/shenhfot.jpg) repeat-x;
+	text-align:center;
+}
+.shenhfot img{
+	margin-top:5px;
+}
+tr td,tr td select,tr td b{
+	font-size: 12px;
+}

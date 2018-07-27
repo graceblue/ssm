@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color:#333;
+}
+a {
+	color:#333;
+}
+a:hover {
+	text-decoration:none;
+}
+.middleft {
+	width:100%;
+	float:left;
+	height:auto;
+	padding-bottom:20px;
+}
+#middle {
+	margin:0 auto;
+	min-width:920px;
+	width:95%;
+}
+.midbord {
+	border:1px solid #d9e0ea;
+}
+.marlt14 {
+	margin-left:14px;
+}
+.marlt10{
+	margin-left:10px;
+}
+.mtop30{
+	margin-top:30px;
+}
+.mtop15{
+	margin-top:15px;
+}
+.pdbot20{
+	padding-bottom:20px;
+}
+.pdbot8{
+	padding-bottom:8px;
+}
+#mtop30{
+	margin-top:30px;
+}
+/* 基础 */
+
+/* 工作提醒 */
+.midtop {
+	height:27px;
+	line-height:30px;
+	margin-top:30px;
+	color:#343434;
+	padding-bottom:5px;
+	background:#f2f4f7;
+}
+.midtop b {
+	margin-left:15px;
+}
+.midtop b.bsty {
+	margin-left:2px;
+	color:#2674be;
+	font-family:Arial;
+}
+.midtop span {
+	margin-left:10px;
+	color:#333333;
+}
+.midtop span a {
+	color:#333;
+}
+.midtop span.spsty {
+	background-color:#2674be;
+	color:#fff;
+	font-weight:bold;
+	padding:6px 11px;
+}
+.midtop span.spsty a {
+	color:#fff;
+}
+.midtop span.marlt {
+	margin-left:35px;
+}
+.midtop span.spsty b {
+	color:#fff;
+}
+
+/* 选项查询 */
+.topbox {
+	margin-top:8px;
+	margin-left:15px;
+	float:left;
+}
+.topbox ul {
+	width:100%;
+	margin-top:8px;
+	float:left;
+}
+.topbox li {
+	height:24px;
+	line-height:24px;
+	float:left;
+}
+.topbox li b {
+	width:125px;
+	color:#676767;
+	display:block;
+	float:left;
+	text-align:right;
+	margin-right:10px;
+}
+.topbox li span {
+	float:left;
+}
+.topbox li a.asty {
+	float:left;
+	padding:0 15px;
+}
+.topbox li input {
+	float:left;
+}
+.topbox li input, .topbox li.money span, .itemslist li input, .modifyinfo li input {
+	border:1px solid #c9d3e1;
+	height:22px;
+	line-height:22px;
+}
+.topbox li input {
+	width:150px;
+}
+.topbox li.money input {
+	width:52px;
+	border:0px;
+	height:18px;
+	line-height:18px;
+}
+.topbox li.money small {
+	color:#c9d3e1;
+	padding:0px 3px;
+	display:block;
+	float:left;
+}
+.topbox li.money span {
+	display:block;
+	float:left;
+	font-size:15px;
+	color:#999999;
+	font-family:"微软雅黑";
+}
+.topbox li span.spsty {
+	margin-left:20px;
+	font-weight:bold;
+	color:#999999;
+	float:left;
+}
+.topbox li span.spsty a img {
+	margin-bottom:2px;
+	margin-left:4px;
+}
+.topbox li span.folder, .batchtop p.folder, .batchlist p.folder {
+	width:150px;
+	height: 22px;
+	border:1px solid #c9d3e1;
+	display:block;
+	overflow:hidden;
+	float:left;
+	white-space:nowrap;
+}
+.topbox li span.folder input, .batchtop p.folder input, .batchlist p.folder input {
+	width: 128px;
+	height: 22px;
+	line-height: 22px;
+	border:0px;
+	vertical-align:baseline;
+	float:left;
+}
+.topbox li span.folder a, .batchtop p.folder a, .batchlist p.folder a {
+	height:20px;
+	width:20px;
+	background:url(../imgs/folderico.jpg) no-repeat;
+	cursor: pointer;
+	display:block;
+	float:left;
+}
+
+/* 头部背景样式 */
+.topbgsy{
+	height:38px;
+	background:url(../imgs/listtop.png) repeat-x;
+	line-height:38px;
+	width:99.88%;
+}
+.topbgsy1{
+	height:40px;
+	line-height:40px;
+	background:url(../imgs/titlebg.jpg) repeat-x;
+	width:99.88%;
+}
+.topbgsy .combo .combo-text{
+    color: #333333;
+}
+
+/* 全选按钮 */
+.funcation {
+	height:24px;
+	margin-top:7px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:99.88%;
+}
+.funcation input {
+	float:left;
+	margin-top:5px;
+}
+.funcation small {
+	padding-left:12px;
+	margin-top:5px;
+	float:left;
+}
+.funcation a {
+	margin-left:20px;
+	float:left;
+	padding:0px;
+}
+
+/* 项目顶部  */
+.itemstop {
+	height:32px;
+	line-height:32px;
+	background:url(../imgs/topbg.jpg) repeat-x;
+	width:99.88%;
+	border:1px solid #90b8dc;
+}
+.itemstop b {
+	padding-left:14px;
+	color:#fff;
+	display:block;
+	float:left;
+	width:54.6%;
+}
+.itemstop p {
+	float:left;
+	margin-top:4px;
+	width:42%;
+}
+.itemstop p a {
+	float:right;
+	padding:0px 15px;
+	padding-right:0px;
+}

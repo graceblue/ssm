@@ -1,0 +1,539 @@
+/* CSS Document */
+.options{height:auto; margin-top:10px;}
+.gdxx,.gdxx1{font-size:12px; width:960px; height:30px;}
+.gdxx1{margin-top:10px;}
+.gdx{width:240px; float:left;}
+.Itempu{width:960px; margin:auto; margin-top:20px;}
+.combo1{height:30px;}
+.jhnf {width:210px; float:left; margin-right:15px;}
+.Itemtop{width:60px; float:left;margin-right:15px; }
+.Itembot{line-height:25px;}
+.Itembot strong a{color:#999999;text-decoration:none;}
+.Itembot img{margin-bottom:3px;}
+
+.middle{
+	margin:0 auto;
+	width:750px;
+}
+
+.combo {
+    border: 1px solid #C9D3E1;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.combo .combo-text {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 2px;
+    vertical-align: baseline;
+}
+.combo-arrow {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    opacity: 0.6;
+    overflow: hidden;
+    vertical-align: top;
+    width: 18px;
+}
+.combo-arrow-hover {
+    opacity: 1;
+}
+.combo-panel {
+    overflow: auto;
+}
+.combo-arrow {
+    background:url(<%=request.getContextPath()%>/newstyle/image/selBtn.jpg) no-repeat scroll center center transparent;
+}
+.combo, .combo-panel {
+    background-color: #FFFFFF;
+}
+.combo {
+    background-color: #FFFFFF;
+    border-color: #C9D3E1;
+    padding: 1px;
+}
+.combo-arrow-hover {
+    background:url(<%=request.getContextPath()%>/newstyle/image/selBtn.jpg) no-repeat scroll center center transparent;
+}
+.combobox-item {
+    font-size: 12px;
+    padding: 3px 0 3px 3px;
+}
+.combobox-item-hover {
+    background-color: #CFE7FD;
+    color: #000000;
+}
+.combobox-item-selected {
+    background-color: #88C2FA;
+    color: #000000;
+}
+.datebox-calendar-inner {
+    height: 180px;
+}
+.datebox-button {
+    font-size: 12px;
+    height: 18px;
+    padding: 2px 5px;
+    text-align: center;
+}
+.datebox-current, .datebox-close, .datebox-ok {
+    font-weight: bold;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.datebox-current, .datebox-close {
+    float: left;
+}
+.datebox-close {
+    float: right;
+}
+.datebox-button-hover {
+    opacity: 1;
+}
+.datebox .combo-arrow {
+    background-image:url(<%=request.getContextPath()%>/newstyle/image/datebox_arrow.png);
+    background-position: center center;
+}
+.datebox-button {
+    background-color: #F4F4F4;
+}
+.datebox-current, .datebox-close, .datebox-ok {
+    color: #444444;
+}
+/*日期样式*/
+.calendar {
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 1px;
+}
+.calendar table {
+    border-collapse: separate;
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+}
+.calendar-noborder {
+    border: 0 none;
+}
+.calendar-header {
+    height: 22px;
+    position: relative;
+}
+.calendar-title {
+    height: 22px;
+    text-align: center;
+}
+.calendar-title span {
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    position: relative;
+    top: 2px;
+}
+.calendar-prevmonth, .calendar-nextmonth, .calendar-prevyear, .calendar-nextyear {
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 1px;
+    height: 14px;
+    margin-top: -7px;
+    position: absolute;
+    top: 50%;
+    width: 14px;
+}
+.calendar-prevmonth {
+    background:url(<%=request.getContextPath()%>/newstyle/image/calendar_arrows.png) no-repeat scroll -18px -2px transparent;
+    left: 20px;
+}
+.calendar-nextmonth {
+    background:url(<%=request.getContextPath()%>/newstyle/image/calendar_arrows.png) no-repeat scroll -34px -2px transparent;
+    right: 20px;
+}
+.calendar-prevyear {
+    background:url(<%=request.getContextPath()%>/newstyle/image/calendar_arrows.png) no-repeat scroll -1px -2px transparent;
+    left: 3px;
+}
+.calendar-nextyear {
+    background:url(<%=request.getContextPath()%>/newstyle/image/calendar_arrows.png) no-repeat scroll -49px -2px transparent;
+    right: 3px;
+}
+.calendar-body {
+    position: relative;
+}
+.calendar-body th, .calendar-body td {
+    text-align: center;
+}
+.calendar-day {
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    padding: 1px;
+}
+.calendar-other-month {
+    opacity: 0.3;
+}
+.calendar-menu {
+    display: none;
+    font-size: 12px;
+    height: 150px;
+    left: 0;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    width: 180px;
+}
+.calendar-menu-year-inner {
+    padding-bottom: 5px;
+    text-align: center;
+}
+.calendar-menu-year {
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    width: 40px;
+}
+.calendar-menu-prev, .calendar-menu-next {
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 21px;
+    vertical-align: top;
+    width: 21px;
+}
+.calendar-menu-prev {
+    background:url(<%=request.getContextPath()%>/newstyle/image/calendar_arrows.png)no-repeat scroll 2px 2px transparent;
+    margin-right: 10px;
+}
+.calendar-menu-next {
+    background:url(<%=request.getContextPath()%>/newstyle/image/calendar_arrows.png) no-repeat scroll -45px 2px transparent;
+    margin-left: 10px;
+}
+.calendar-menu-month {
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+.calendar-body th, .calendar-menu-month {
+    color: #4D4D4D;
+}
+.calendar-day {
+    color: #000000;
+}
+.calendar-sunday {
+    color: #CC2222;
+}
+.calendar-saturday {
+    color: #00EE00;
+}
+.calendar-today {
+    color: #0000FF;
+}
+.calendar-menu-year {
+    border-color: #95B8E7;
+}
+.calendar {
+    border-color: #95B8E7;
+}
+.calendar-header {
+    background: none repeat scroll 0 0 #E0ECFF;
+}
+.calendar-body, .calendar-menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.calendar-body th {
+    background: none repeat scroll 0 0 #F4F4F4;
+}
+.calendar-hover, .calendar-nav-hover, .calendar-menu-hover {
+    background-color: #EAF2FF;
+    color: #000000;
+}
+.calendar-hover {
+    border: 1px solid #B7D2FF;
+    padding: 0;
+}
+.calendar-selected {
+    background-color: #FBEC88;
+    border: 1px solid #E2C608;
+    color: #000000;
+    padding: 0;
+}
+/*此选项必填的样式*/
+.validatebox-tip {
+    display: none;
+    height: auto;
+    position: absolute;
+    width: 200px;
+    z-index: 9900000;
+}
+.validatebox-tip-content {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font-size: 12px;
+    left: 8px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    width: 70px;
+    z-index: 9900001;
+}
+.validatebox-tip-pointer {
+    display: inline-block;
+    height: 16px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 8px;
+    z-index: 9900002;
+}
+.validatebox-tip-left .validatebox-tip-content {
+    left: auto;
+    right: 8px;
+}
+.validatebox-tip-left .validatebox-tip-pointer {
+    background-position: -20px center;
+    left: auto;
+    right: 1px;
+}
+.validatebox-invalid {
+	
+    background-color: #FFF3F3;
+    background-image:url(<%=request.getContextPath()%>/newstyle/image/validatebox_warning.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-color: #6CA5E1;
+    color: #000000;
+}
+.validatebox-tip-pointer {
+    background:url(<%=request.getContextPath()%>/newstyle/image/validatebox_arrows.png) no-repeat scroll -4px center transparent;
+}
+.validatebox-tip-content {
+    background-color: #FFFFCC;
+    border-color: #CC9933;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.xinztbtop {
+	width:750px;
+	border-bottom:1px solid #7f9db9;
+	font-size:12px;
+}
+.xinztbtop td {
+	line-height:26px;
+	padding-top:5px;
+	padding-left:25px;
+}
+.xinztbtop td.tdsty {
+	text-align:left;
+	padding-left:20px;
+}
+.xinztbtop .inpt{
+	width:20px;
+	vertical-align:middle;
+	}
+.xinztbtop td select {
+	width:164px;
+	height:23px;
+}
+.xinztable {
+	width:750px;
+	font-size:12px;
+	
+}
+.xinztable td {
+	line-height:15px;
+	border-right:1px solid #7f9db9;
+	border-left:1px solid #7f9db9;
+	padding-top:5px;
+}
+.xinztable td a{
+	float:none;
+}
+.xinztable textarea {
+	margin-left:6px;
+	width:95%;
+	height:45px;
+	
+}
+.xinztable td.xinzbor {
+	border-top:1px solid #7f9db9;
+	border-bottom:1px solid #7f9db9;
+	text-align:center;
+	padding:px 0px;
+}
+.xinztable td a.asty{
+	margin-left:20px;
+	float:none;
+	margin-right:20px;
+	margin-top:7px;
+}
+.padbot {
+	padding-bottom:5px;
+}
+
+.xinztable td span{
+	font-size:12px;
+	}
+.xinztable td span.spnsty{
+	color:#86a4c9;
+	font-size:10px;
+	text-align:center;
+	text-indent:0;
+	width:100%;
+  display:block;
+	}
+	
+.xinztable td span em{
+	font-family:Tahoma,Arial;
+	font-size:12px;
+	font-weight:bold;
+	height:10px;
+	color:#cd8187;
+	}
+	
+.xinztable td.textsty{
+	text-indent:35px;
+}
+
+.xinztable td.fonttext{
+	text-indent:27px;
+}
+ td font{
+	width:8px;
+	float:left;
+}
+
+	
+.chaktable{
+	width:750px;
+		font-size:12px;
+	}
+.chaktable td{
+	line-height:18px;
+	color:#575757;
+	}
+
+.chaktable td.tdbg{
+	background:#ecf1f7;
+	font-size:14px;
+	}
+.chaktable td.tdbg span{
+	width:70px;
+	margin-right:30px;
+}
+	
+.chaktable td.tdsty1{
+	width:50%;
+	}
+.chaktable td.tdsty2{
+		width:70%;
+}
+.chaktable td span{
+	padding-left:10px;
+	font-size:12px;
+	float:left;
+	width:560px;
+	}
+.chaktable td span.spsty1{
+	width:200px;
+}
+.chaktable td b{
+	color:#333;
+	float:left;
+	width:120px;
+	text-align:right;
+	}
+.chaktable td b.bsty1{
+	text-align: left;
+	padding-left:20px;
+	width:450px;
+}
+.chaktable .borbot{
+	border-bottom:1px solid #d8dfe9;
+	padding-bottom:10px;
+	}
+.chaktable .paddtop{
+	padding-top:10px;
+}
+.chaktable .paddleft{
+	padding-left:20px;
+	padding-bottom:5px;
+	}
+
+.chaktable td.tdbg span.datime{
+	padding-left:40px;
+	width:100px;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.shenhetab{
+	width:760px;
+	padding-top:6px;
+	font-size:12px;
+	}
+.shenhetab b{
+	font-size:14px;
+	color:#1c559c;
+}
+.shenhetab th{
+	background:#ddeafa;
+	line-height:26px;
+	text-align:left;
+	text-indent:1em;
+}
+.shenhetab td{
+	line-height:26px;
+	text-indent:1em;
+	}
+.shenhetab td.bgsty{
+	background:#edf3fa;
+	}
+.shenhetab td.textrg{
+	/* float:right; */
+	padding-right:30px;
+	text-indent:0em;
+	text-align:right;
+	padding-top:15px;
+}
+.shenhetab .em2{
+	text-indent:3em;
+}

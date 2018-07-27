@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+#middle {
+	min-width:920px;
+	width:95%;
+	margin:0 auto;
+}
+.midbord {
+	border:1px solid #d9e0ea;
+}
+.bortp0{
+	border-bottom:0px;
+}
+.btop0{
+	border-top:0px;
+}
+.mtop20{
+	margin-top:20px;
+}
+.middleft {
+	width:100%;
+	float:left;
+	height:auto;
+	margin-bottom:20px;
+	background:#fff;
+}
+
+.reptopbox {
+	margin-top:30px;
+	margin-left:15px;
+	float:left;
+}
+.reptopbox ul {
+	width:100%;
+	margin-top:8px;
+	float:left;
+}
+.reptopbox  li{
+	float:left;
+	height:24px;
+	line-height:24px;
+	float:left;
+}
+.reptopbox li b {
+	width:136px;
+	color:#676767;
+	display:block;
+	float:left;
+	text-align:right;
+	margin-right:10px;
+}
+.reptopbox li b.widsy{
+	width:76px;
+}
+.reptopbox li span.spsty {
+	margin-left:20px;
+	font-weight:bold;
+	color:#999999;
+}
+.reptopbox li span.spsty a img {
+	margin-bottom:2px;
+	margin-left:4px;
+}
+.reptoptit{
+	width:99.78%;
+	height:64px;
+	background:url(../imgs/planbg.jpg) repeat-x;
+}
+.reptoptit img{
+	margin:23px 21px 0px 17px;
+	float:left;
+	}
+.reptoptit dl{
+	float:left;
+	width:563px;
+	padding-top:10px;
+	width:61.3%;
+}
+.reptoptit dt,.reptoptit dd{
+	padding-top:7px;
+}
+.reptoptit dt{
+	font-weight:bold;
+	color:#333;
+	}
+.reptoptit dd a{
+	color:#0247c7;
+	padding-right:13px;
+	}
+.reptoptit p{
+	float:left;
+}
+.reptoptit p.caog{
+	text-align:center;
+	line-height:64px;
+	width:11.1%;
+	color:#666;
+}
+.reptoptit p.jihst{
+	padding-top:18px;
+	width:19.5%;
+}
+.reptoptit p.jihst a{
+	display:block;
+	text-align:right;
+	color:#0247c7;
+	padding-top:7px;
+}
+.reportlist{
+	width:99.78%;
+	float:left;
+	height:100%;
+}
+.reportlist p{
+	width:61px;
+	float:left;
+	height:auto;
+	text-align:center;
+	}
+.reportlist p img{
+	margin-top:7px;
+}
+.reportlist ul{
+	height:auto;
+	float:left;
+	border-left:1px solid #d8dfe9;
+	width:93.22%;
+}
+.reportlist li{
+	border-bottom:1px solid #d8dfe9;
+	line-height:29px;
+	height:29px;
+	width:100%;
+	}
+.reportlist li.lastli{
+	border-bottom:0px;
+}
+.reportlist li span{
+	display:block;
+	float:left;
+	color:#666666;
+	width:34.6%;
+	}
+.reportlist li span a{
+	float:left;
+	color:#0247c7;
+	text-indent:19px;
+}	
+.reportlist li span img{
+	padding:7px 0px 0px 6px;
+	float:left;
+	}
+.reportlist li span.spsy1{
+	width:24.5%;
+}
+.reportlist li span.spsy2{
+	width:17%;
+}
+.reportlist li span.spsy3{
+	width:8.2%;
+}
+.reportlist li span.spsy4{
+	width:15%;
+}
+.reptopbox li span{
+	float:left;
+}
+
+.initload {
+	text-align:center;
+	height:200px;
+	padding-top:80px;
+	width:100%;
+	float:left;
+}
+.initItemter {
+	text-align:center;
+	height:80px;
+	padding-top:80px;
+	width:100%;
+	float:left;
+	border-bottom:1px solid #C9D3E1;
+}
